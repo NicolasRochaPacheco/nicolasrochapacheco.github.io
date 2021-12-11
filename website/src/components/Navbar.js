@@ -7,8 +7,7 @@ function NavBar(){
                 NicolasRochaPacheco
             </div>
             <ul className="navbar-menu">
-                <li>HOME</li>
-                <li>EDUCATION</li>
+                <li className="active">EDUCATION</li>
                 <li>PROJECTS</li>
                 <li>EXPERIENCE</li>
                 <li>SKILLS</li>
