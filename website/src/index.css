@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
 :root {
   --orange: #FA991C;
   --snow: #FBF3F2;
@@ -6,7 +9,7 @@
 }
 
 * {
-  font-family: 'Helvetica', Arial, sans-serif;
+  font-family: 'Roboto Condensed','Helvetica', Arial, sans-serif;
 }
 
 body, html {
