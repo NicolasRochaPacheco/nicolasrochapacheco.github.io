@@ -1,17 +1,60 @@
 import "./Navbar.css"
+import { NavLink } from 'react-router-dom';
 
 function NavBar(){
     return (
         <div className="navbar">
-            <div className="navbar-logo">
+
+            {/* Logo link to home */}
+            <NavLink to="/" className="navbar-link navbar-logo">
                 NicolasRochaPacheco
-            </div>
-            <ul className="navbar-menu">
-                <li className="active">EDUCATION</li>
-                <li>PROJECTS</li>
-                <li>EXPERIENCE</li>
-                <li>SKILLS</li>
-                <li>CONTACT</li>
+            </NavLink>
+            
+            <ul className="navbar-menu">    
+                <NavLink
+                    to="/education"
+                    className={({isActive}) => 
+                        isActive ? "navbar-link navbar-active":"navbar-link" 
+                    }
+                >
+                    <li>EDUCATION</li>
+                </NavLink>
+
+                <NavLink
+                    to="/projects"
+                    className={({isActive}) => 
+                        isActive ? "navbar-link navbar-active":"navbar-link" 
+                    }
+                >
+                    <li>PROJECTS</li>
+                </NavLink>
+
+                <NavLink
+                    to="/experience"
+                    className={({isActive}) => 
+                        isActive ? "navbar-link navbar-active":"navbar-link" 
+                    }
+                >
+                    <li>EXPERIENCE</li>
+                </NavLink>
+
+                <NavLink 
+                    to="/skills" 
+                    className={({isActive}) => 
+                        isActive ? "navbar-link navbar-active":"navbar-link" 
+                    }
+                >
+                    <li>SKILLS</li>
+                </NavLink>
+
+                <NavLink 
+                    to="/contact" 
+                    className={({isActive}) => 
+                        isActive ? "navbar-link navbar-active":"navbar-link" 
+                    }
+                >
+                    <li>CONTACT</li>
+                </NavLink>
             </ul>
         </div>
     );
