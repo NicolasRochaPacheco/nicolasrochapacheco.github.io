@@ -6,6 +6,11 @@
     justify-content: space-between;
 }
 
+.navbar-link {
+    color: var(--snow);
+    text-decoration: none;
+}
+
 .navbar-logo {
     padding: 0 1vw;
     margin: 1vh 0;
@@ -19,14 +24,12 @@
     margin: 1vh 0;
     padding: 0 0;
     list-style: none;
-    color: var(--snow);
     display: inline-flex;
 }
 
 .navbar-menu li {
     padding: 1.5vh 1vw;
     text-align: center;
-    border-radius: 10px;
 }
 
 .navbar-menu li:hover {
@@ -35,7 +38,7 @@
     background-color: var(--prussian);
 }
 
-.active {
+.navbar-active {
     color: var(--prussian);
     background-color: var(--orange);
 }
