@@ -12,14 +12,16 @@ import Education from "./pages/Education";
 
 function App() {
   return (
-    <Router>
-      <NavBar />
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/education" element={<Education />} />
-        <Route path="/skills" element={<Skills />} />
-      </Routes>
-    </Router>
+    <div className="app">
+      <Router>
+        <NavBar />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/education" element={<Education />} />
+          <Route path="/skills" element={<Skills />} />
+        </Routes>
+      </Router>
+    </div>
   );
 }
 
