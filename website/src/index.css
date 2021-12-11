@@ -1,0 +1,16 @@
+:root {
+  --orange: #FA991C;
+  --snow: #FBF3F2;
+  --teal: #1C768F;
+  --prussian: #032539;
+}
+
+* {
+  font-family: 'Helvetica', Arial, sans-serif;
+}
+
+body, html {
+  width: 100%;
+  margin: auto;
+  background-color: var(--snow);
+}
