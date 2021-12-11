@@ -7,7 +7,7 @@ function NavBar(){
 
             {/* Logo link to home */}
             <NavLink to="/" className="navbar-link navbar-logo">
-                NicolasRochaPacheco
+                NRP <i className="fas fa-microchip" />
             </NavLink>
             
             <ul className="navbar-menu">    
