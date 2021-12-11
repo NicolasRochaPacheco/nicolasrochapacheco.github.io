@@ -1,0 +1,43 @@
+.home-banner {
+    display: flex;
+    padding: 0 20vw;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--prussian);
+}
+
+.home-banner-header {
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+}
+
+.home-banner-name {
+    font-size: 10vh;
+    line-height: 10vh;
+    color: var(--snow);
+    font-family: 'Oswald', Helvetica, Arial, sans-serif;
+}
+
+.home-banner-title {
+    font-size: 5vh;
+    color: var(--snow);
+    font-family: 'Roboto Slab', Helvetica, Arial, sans-serif;
+}
+
+.home-banner-photo {
+    margin-top: 5vh;
+}
+
+.home-invitation {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    font-size: 2.5vh;
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+}
