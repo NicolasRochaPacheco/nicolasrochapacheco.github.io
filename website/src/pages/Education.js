@@ -5,7 +5,7 @@ import "./Education.css";
 function Education(){
     return (
         <div className="page education">
-            <h1 className="education-title">Academic Degrees</h1>
+            <h1 className="page-title">Academic Degrees</h1>
             <div className="education-wrapper">
                 <div className="education-item">
                     <div className="education-item-title">Electrical Engineering</div>
@@ -37,7 +37,8 @@ function Education(){
                     <div className="education-item-coursework"><b>Relevant Coursework:</b> Machine Learning, Embedded Systems, Optimization, Natural Language Processing. </div>
                 </div>
             </div>
-            <h1 className="education-title">Self Learning</h1>
+
+            <h1 className="page-title">Self Learning</h1>
             <div className="education-wrapper">
                 <div className="education-item">
                     <div className="education-self-title">Computer Architecture</div>
