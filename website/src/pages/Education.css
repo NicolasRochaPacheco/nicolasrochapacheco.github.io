@@ -1,0 +1,79 @@
+.education {
+    margin: 0 10vw;
+}
+
+.education-title {
+    text-align: center;
+}
+
+.education-wrapper{
+    gap: 0 3vw;
+    display: flex;
+    color: var(--prussian);
+    flex-direction: row;
+    justify-content: center;
+}
+
+.education-item {
+    flex: 1;
+    display: flex;
+    color: var(--snow );
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--prussian);
+}
+
+.education-item-title {
+    width: 100%;
+    padding: 1vh 0 0;
+    font-size: 2.5vh;
+    color: var(--snow);
+    text-align: center;
+    font-family: 'Roboto Slab', Helvetica, sans-serif;
+}
+
+.education-item-kind {
+    width: 100%;
+    padding: 0 0 1vh;
+    font-size: 2vh;
+    color: var(--snow);
+    text-align: center;
+}
+
+.education-hr {
+    width: 80%;
+    margin: 0;
+    border: 1px solid var(--orange);
+}
+
+.education-item-university {
+    font-size: 2vh;
+    padding-top: 1vh;
+}
+
+.education-item-location {
+    font-size: 1.5vh;
+    padding-bottom: 1vh;
+}
+
+.education-item-coursework {
+    width: 80%;
+    padding-top: 1vh;
+    text-align: center;
+    padding-bottom: 2vh;
+}
+
+.education-self-title {
+    width: 100%;
+    font-size: 2.5vh;
+    color: var(--snow);
+    padding: 1vh 0;
+    text-align: center;
+    font-family: 'Roboto Slab', Helvetica, sans-serif;
+}
+
+.education-self-desc {
+    padding: 1vh 0;
+    width: 80%;
+    text-align: center;
+}
