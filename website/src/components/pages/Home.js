@@ -1,6 +1,6 @@
 import "./Home.css";
 import "./Pages.css";
-import myself from "../myself.png";
+import myself from "../../myself.png";
 
 function Home(){
     return (
