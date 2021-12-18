@@ -21,15 +21,6 @@ function NavBar(){
                 </NavLink>
 
                 <NavLink
-                    to="/projects"
-                    className={({isActive}) => 
-                        isActive ? "navbar-link navbar-active":"navbar-link" 
-                    }
-                >
-                    <li>PROJECTS</li>
-                </NavLink>
-
-                <NavLink
                     to="/experience"
                     className={({isActive}) => 
                         isActive ? "navbar-link navbar-active":"navbar-link" 
