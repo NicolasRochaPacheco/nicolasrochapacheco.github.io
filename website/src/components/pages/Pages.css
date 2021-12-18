@@ -7,3 +7,9 @@
 .page-title {
     text-align: center;
 }
+
+.page-hr {
+    width: 80%;
+    margin: 0;
+    border: 1px solid var(--orange);
+}
