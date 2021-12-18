@@ -5,10 +5,11 @@ import {
   Route
 } from 'react-router-dom';
 
-import Home from "./pages/Home";
-import Skills from "./pages/Skills";
+import Home from "./components/pages/Home";
+import Skills from "./components/pages/Skills";
+import Experience from "./components/pages/Experience";
 import NavBar from "./components/Navbar";
-import Education from "./pages/Education";
+import Education from "./components/pages/Education";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/education" element={<Education />} />
+          <Route path="/experience" element={<Experience />} />
           <Route path="/skills" element={<Skills />} />
         </Routes>
       </Router>
